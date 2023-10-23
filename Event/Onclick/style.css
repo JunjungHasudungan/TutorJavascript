@@ -1,0 +1,46 @@
+.container {
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* display: inline-flex; */
+}
+#inputText {
+    height: 25px;
+    border-radius: 5px;
+}
+
+#label {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#btn {
+    width: 75px;
+    font-weight: bold;
+    color: rgb(76, 0, 255);
+    word-spacing: 5px;
+}
+
+#alertInput {
+    margin: 2px;
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    font-size: x-small;
+    color: rgb(255, 0, 0);
+    display: block;
+    padding: 2px;
+    padding-left: 60px;
+}
+
+.btn-click {
+    height: fit-content;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+}
