@@ -1,0 +1,19 @@
+#form {
+    width: auto;
+    padding: 2px;
+    margin: 2px;
+}
+
+#judul {
+    font-size: small;
+    font-weight: bolder;
+    color: rgb(1, 1, 14);
+}
+
+#judul-soal {
+    color: chartreuse;
+}
+
+#form {
+    display: block;
+}

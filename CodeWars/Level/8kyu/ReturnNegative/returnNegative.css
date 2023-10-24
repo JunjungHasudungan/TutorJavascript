@@ -1,0 +1,24 @@
+.continer {
+    width: auto;
+    display: block;
+}
+#inputNumber{
+    border-radius: 2px;
+}
+#alertinput {
+    color: rgb(226, 72, 72);
+    margin-left: 25px;
+    font-size:x-small;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+#container-soal {
+    width: auto;
+}
+
+#title {
+    color: rgb(12, 112, 57);
+    font-weight: bold;
+    gap: 2px;
+}

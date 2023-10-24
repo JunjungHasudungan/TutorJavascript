@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display:inline-flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2px;
+}
+
+#alertInput {
+    color: red;
+    font-weight: bold;
+    font-size: x-small;
+}
