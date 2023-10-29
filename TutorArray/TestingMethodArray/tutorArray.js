@@ -28,8 +28,6 @@ const btnPush = () => { // mengisi nilai inputan kedalam arr melalui menekan tom
 }
 
 const btnPop = () => {
-    // masih bug
-    let testing = isi_array.filter( item => item === input_arr.value);
     if(isi_array.length == 0) {
         alertInput.innerHTML = "Tidak dapat menghapus karna item array tidak ada.."
         setTimeout(()=>{
@@ -60,4 +58,8 @@ input.addEventListener("keydown", (event) => {
         }
     }
 });
+
+const btnSlice = () => {
+    alert('tombol slice')
+}
 

@@ -23,7 +23,7 @@
     </div>
     <script src="removeDuplicate.js"></script> -->
 
-    <script>
+    <!-- <script>
         const arr = [1, 2, 3, 4];
 
         const solve = (arr) => {
@@ -38,6 +38,42 @@
         }
 
         solve(arr);
+    </script> -->
+
+
+    <script>
+
+        let arr = [1,2,1,2,1,2,3];
+
+        const removeDuplicate = (arr) => {
+            // const new_arr = arr.filter((value, index) => index) // Array(6) [ 2, 1, 2, 1, 2, 3 ]
+            // const new_arr = arr.filter((value, index) => value)  // Array(7) [ 1, 2, 1, 2, 1, 2, 3 ]
+            const new_arr = arr.filter((value, index) => arr.lastIndexOf(value) === index)
+            // parameter pada arr.lastIndexOf(index) merupakan Elemen untuk ditempatkan dalam array.
+            /* === merupakan perbandingan dengan nilai sama dan tipe yang sama dengan 
+                nilai aray yang ada pada index
+                bila nilai pada nilai value dan index sama (bukan jumlah nilai)
+                akan mengembalikan nilai yang sama dalam array awal
+             */ 
+            console.log(new_arr)
+            // Array(3) [ 1, 2, 3 ]
+        }
+
+        removeDuplicate(arr);
+
+        // function removeDuplicate(arr) {
+        //     let new_arr = arr.filter((value, index) => index );
+        // //  })
+        // console.log(new_arr)
+        // }
+
+        // removeDuplicate(arr);
+
+                //     let new_arr = arr.filter((value, index) => index );
+        // //  })
+        // console.log(new_arr)
+        
+
     </script>
 </body>
 </html>

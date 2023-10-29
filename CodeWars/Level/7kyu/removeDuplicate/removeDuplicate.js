@@ -6,6 +6,3 @@ const removeDuplicate = () => {
     alert('tombol ditekan');
 }
 
-const validateInput = () => {
-    // inputNumber.value = ""
-}

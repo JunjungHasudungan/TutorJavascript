@@ -21,6 +21,7 @@
         <p id="alertInput"></p>
         <button id="btn_push" onclick="btnPush()"> Btn push</button>
         <button id="btn_pop" onclick="btnPop()"> Btn Pop</button>
+        <button id="btn_slice" onclick="btnSlice()"> Btn Slice</button>
     </div>
     <script src="tutorArray.js"></script>
 </body>
